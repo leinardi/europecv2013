@@ -17,4 +17,4 @@ This is a derived work under the terms of the LaTeX project public license (LPPL
 * "Personal information" should be uppercase. I can't make `\uppercase`, `\MakeUppercase` and `\MakeTextUppercase` to work with strings defined in the .def files.
 
 ## TODO
-* take a look at `fontawesome`and evaluate its use in place of bitmap images (thanks to @Manuel from ex.stackexchange.com for the suggestion)
+* take a look at `fontawesome`and evaluate its use in place of bitmap images (thanks to @Manuel from tex.stackexchange.com for the suggestion)
