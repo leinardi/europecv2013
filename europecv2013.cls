@@ -404,11 +404,11 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_mobile}\end{array}
 \ifx\@empty\ecv@email\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$\href{mailto:\ecv@email}{\ecv@email}\par\vspace{5pt}
 \fi
+\ifx\@empty\ecv@homepage\else
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_url}\end{array}$\ecv@homepage\par\vspace{5pt}
+\fi
 \ifx\@empty\ecv@linkedin\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_linkedin}\end{array}$\ecv@linkedin\par\vspace{10pt}
-\fi
-\ifx\@empty\ecv@homepage\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_url}\end{array}$\ecv@homepage\par\vspace{10pt}
 \fi
 \ifx\@empty\ecv@gender
 	\ifx\@empty\ecv@birth
