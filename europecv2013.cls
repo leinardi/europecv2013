@@ -381,6 +381,7 @@
 \ecvtelephone{}
 \ecvemail{}
 \ecvlinkedin{}
+\ecvhomepage{}
 \ecvgender{}
 \ecvdateofbirth{}
 \ecvnationality{}
@@ -405,6 +406,9 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$
 \fi
 \ifx\@empty\ecv@linkedin\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_linkedin}\end{array}$\ecv@linkedin\par\vspace{10pt}
+\fi
+\ifx\@empty\ecv@homepage\else
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_url}\end{array}$\ecv@homepage\par\vspace{10pt}
 \fi
 \ifx\@empty\ecv@gender
 	\ifx\@empty\ecv@birth
