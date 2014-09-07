@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{\"On\'eletrajza}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Anyanyelv(ek)}}
-\def\ecv@assesskey{\ecv@utf{\"On\'ert\'ekel\'es}}
-\def\ecv@levelkey{\ecv@utf{Eur\'opai szint}}
+\def\ecv@otherlanguageskey{\ecv@utf{Egyéb nyelvek}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Sz\"oveg\'ert\'es}}
 \def\ecv@speakkey{\ecv@utf{Besz\'ed}}
 \def\ecv@writekey{\ecv@utf{\'Ir\'as}}

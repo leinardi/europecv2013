@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Europass Автобиографияf}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Майчин (и) език (езици)}}
-\def\ecv@assesskey{\ecv@utf{Самооценяване}}
-\def\ecv@levelkey{\ecv@utf{Европейско ниво}}
+\def\ecv@otherlanguageskey{\ecv@utf{Други езици}}
+\def\ecv@levelskey{\ecv@utf{нива}}
 \def\ecv@understandkey{\ecv@utf{Разбиране}}
 \def\ecv@speakkey{\ecv@utf{Разговор}}
 \def\ecv@writekey{\ecv@utf{Писане}}

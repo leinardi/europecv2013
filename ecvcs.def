@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{{\v Z}ivotopis}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Mate{\v r}sk{\'y} jazyk(y)}}
-\def\ecv@assesskey{\ecv@utf{Sebehodnocen{\'i}}}
-\def\ecv@levelkey{\ecv@utf{Evropsk{\'a} {\'u}rove{\v n}}}
+\def\ecv@otherlanguageskey{\ecv@utf{Další jazyky}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Porozum{\v e}n{\'\i}}}
 \def\ecv@speakkey{\ecv@utf{Mluven{\'\i}}}
 \def\ecv@writekey{\ecv@utf{Psan{\'\i}}}

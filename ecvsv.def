@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Meritf\"orteckning f\"or}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Modersm\aa l}}
-\def\ecv@assesskey{\ecv@utf{Sj\"alvbed\"omning}}
-\def\ecv@levelkey{\ecv@utf{Europeisk niv\aa}}
+\def\ecv@otherlanguageskey{\ecv@utf{Andra språk}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{F\"orst\aa else}}
 \def\ecv@speakkey{\ecv@utf{Tala}}
 \def\ecv@writekey{\ecv@utf{Skriva}}

@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Curriculum vit\ae}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Limba(i) matern{\u a}(e)}}
-\def\ecv@assesskey{\ecv@utf{Autoevaluare}}
-\def\ecv@levelkey{\ecv@utf{Nivel european}}
+\def\ecv@otherlanguageskey{\ecv@utf{Alte limbi str{\u a}ine cunoscute}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Comprehensiune}}
 \def\ecv@speakkey{\ecv@utf{Vorbit}}
 \def\ecv@writekey{\ecv@utf{Scris}}

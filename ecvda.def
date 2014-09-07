@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Curriculum vit\ae\ for}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Modersm\aa l}}
-\def\ecv@assesskey{\ecv@utf{Selvevaluering}}
-\def\ecv@levelkey{\ecv@utf{Europ\ae isk niveau}}
+\def\ecv@assesskey{\ecv@utf{Andre sprog}}
+\def\ecv@levelskey{\ecv@utf{Niveauer}}
 \def\ecv@understandkey{\ecv@utf{Forst\aa}}
 \def\ecv@speakkey{\ecv@utf{Tale}}
 \def\ecv@writekey{\ecv@utf{Skrive}}

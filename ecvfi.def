@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Ansioluettelo}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{\"Aidinkieli}}
-\def\ecv@assesskey{\ecv@utf{Itsearviointi}}
-\def\ecv@levelkey{\ecv@utf{Eurooppalainen taitotaso}}
+\def\ecv@otherlanguageskey{\ecv@utf{Muu kielitaito}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Ymm\"art\"aminen}}
 \def\ecv@speakkey{\ecv@utf{Puhuminen}}
 \def\ecv@writekey{\ecv@utf{Kirjoittaminen}}

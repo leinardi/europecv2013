@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{{\AE}vi{\'a}grip}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{M{\'o}{\dh}urm{\'a}l}}
-\def\ecv@assesskey{\ecv@utf{Sj\'alfsmat}}
-\def\ecv@levelkey{\ecv@utf{Evr{\'o}puvi{\dh}mi{\dh}}}
+\def\ecv@otherlanguageskey{\ecv@utf{Önnur tungumál}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Skilningur}}
 \def\ecv@speakkey{\ecv@utf{Talm{\'a}l}}
 \def\ecv@writekey{\ecv@utf{Lestur}}

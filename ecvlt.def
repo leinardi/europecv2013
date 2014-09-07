@@ -18,8 +18,8 @@
 \def\ecv@cvofkey{\ecv@utf{Gyvenimo apra{\v s}ymas}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Gimtoji kalba~(-os)}}
-\def\ecv@assesskey{\ecv@utf{{\k I}sivertinimas}}
-\def\ecv@levelkey{\ecv@utf{Europos lygis}}
+\def\ecv@otherlanguageskey{\ecv@utf{Kitos kalbos}}
+\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
 \def\ecv@understandkey{\ecv@utf{Supratimas}}
 \def\ecv@speakkey{\ecv@utf{Kalb{\.e}jimas}}
 \def\ecv@writekey{\ecv@utf{Ra{\v s}ymas}}
