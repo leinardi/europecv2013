@@ -351,7 +351,7 @@
 \newcommand*{\ecvfootername}[1]{\def\ecv@footername{#1}}
 \newcommand*{\ecvaddress}[1]{\def\ecv@address{#1}}
 \newcommand*{\ecvtelephone}[2][]{\def\ecv@mobile{#2}\def\ecv@telephone{#1}}
-\newcommand*{\ecvemail}[1]{\def\ecv@email{#1}}
+\newcommand*{\ecvemail}[2][]{\def\ecv@emailid{#2}\def\ecv@emailtext{#1}}
 \newcommand*{\ecvlinkedin}[1]{\def\ecv@linkedin{#1}}
 \newcommand*{\ecvhomepage}[1]{\def\ecv@homepage{#1}}
 \newcommand*{\ecvnationality}[1]{\def\ecv@nationality{#1}}
@@ -401,8 +401,14 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_mobile}\end{array}
  \ifx\@empty\ecv@telephone\else\qquad\includegraphics[width=\ecv@iconwidth]{ic_phone_home} \ecv@telephone\fi
 \par\vspace{5pt}
 \fi
-\ifx\@empty\ecv@email\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$\href{mailto:\ecv@email}{\ecv@email}\par\vspace{5pt}
+\ifx\@empty\ecv@emailid\else
+	$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$
+	\ifx\@empty\ecv@emailtext
+		\href{mailto:\ecv@emailid}{\foreignlanguage{english}{\ecv@emailid}}
+	\else
+		\href{mailto:\ecv@emailid}{\ecv@emailtext}
+	\fi
+	\par\vspace{5pt}
 \fi
 \ifx\@empty\ecv@homepage\else
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_url}\end{array}$\ecv@homepage\par\vspace{5pt}
