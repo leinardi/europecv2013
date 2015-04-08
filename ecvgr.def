@@ -21,8 +21,8 @@
 \def\ecv@cvofkey{\ecv@utf{\foreignlanguage{greek}{Βιογραφικό σημείωμα του/της}}}
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{\foreignlanguage{greek}{Μητρική γλώσσα}}}
-\def\ecv@otherlanguageskey{\ecv@utf{Other language(s)}} % To be translated
-\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
+\def\ecv@otherlanguageskey{\ecv@utf{\foreignlanguage{greek}{Λοιπές Γλώσσες}}}
+\def\ecv@levelskey{\ecv@utf{\foreignlanguage{greek}{Βαθμίδες}}} 
 \def\ecv@understandkey{\ecv@utf{\foreignlanguage{greek}{Κατανόηση}}}
 \def\ecv@speakkey{\ecv@utf{\foreignlanguage{greek}{Ομιλία}}}
 \def\ecv@writekey{\ecv@utf{\foreignlanguage{greek}{Γραπτή}}}
