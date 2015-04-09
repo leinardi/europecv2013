@@ -14,7 +14,7 @@ This is a derived work under the terms of the LaTeX project public license (LPPL
 
 ## Known issues
 * [#2](../../issues/2) - ["Personal information"](/europecv2013.cls#L392) should be uppercase. I can't make `\uppercase`, `\MakeUppercase` and `\MakeTextUppercase` to work with strings defined in the .def files.
-* For now only English and Italian are fully translated. Any contribution is welcome.
+* For now only English, Italian and Greek are fully translated. Any contribution is welcome.
 
 ## TODO
 * take a look at `fontawesome`and evaluate its use in place of bitmap images (thanks to @Manuel from tex.stackexchange.com for [the suggestion](https://tex.stackexchange.com/questions/150869/latex-class-for-europass-cv-2013-template/196533#comment455258_196533))
