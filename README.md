@@ -13,7 +13,6 @@ git clone https://github.com/leinardi/europecv2013.git
 This is a derived work under the terms of the LaTeX project public license (LPPL). It is based on version 2014-06-27 of europecv.cls which is part of the europecv package by Nicola Vitacolonna. A copy of europecv, including the unmodified version of europecv.cls is available  from http://www.ctan.org/tex-archive/macros/latex/contrib/europecv. europecv2013.cls is part of the included archive europecv2013.tar.gz which is released under the LPPL.
 
 ## Known issues
-* [#2](../../issues/2) - ["Personal information"](/europecv2013.cls#L392) should be uppercase. I can't make `\uppercase`, `\MakeUppercase` and `\MakeTextUppercase` to work with strings defined in the .def files.
 * For now only English, Italian and Greek are fully translated. Any contribution is welcome.
 
 ## TODO
