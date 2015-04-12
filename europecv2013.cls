@@ -26,7 +26,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{europecv2013}[2014/09/07 (beta) European curriculum vitae 2013 class]
+\ProvidesClass{europecv2013}[2015/04/12 (beta) European curriculum vitae 2013 class]
 
 % CV models and instructions:
 %   http://europass.cedefop.europa.eu/en/documents/curriculum-vitae/templates-instructions
