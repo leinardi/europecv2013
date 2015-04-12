@@ -31,7 +31,7 @@
 % CV models and instructions:
 %   http://europass.cedefop.europa.eu/en/documents/curriculum-vitae/templates-instructions
 
-\newcommand\ecv@utf[1]{{\inputencoding{utf8x}#1}}
+\DeclareRobustCommand\ecv@utf[1]{{\inputencoding{utf8x}#1}}
 
 % Set language
 \DeclareOption{english}{%
@@ -389,7 +389,7 @@
 
 \providecommand{\ecvpersonalinfo}[1][20pt]{%
 & \tabularnewline[20pt]
-\textcolor{torea-bay}{\ecv@infosectionkey} & \LARGE\ecv@name\tabularnewline[10pt]
+\textcolor{torea-bay}{\MakeUppercase{\ecv@infosectionkey}} & \LARGE\ecv@name\tabularnewline[10pt]
 \ifx\@empty\ecvdrawpicture &\else
 \ecv@beforepic\ecvdrawpicture\ecv@afterpic &
 \fi
@@ -476,7 +476,7 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_linkedin}\end{arra
 \setlength\extrarowheight{2pt}
 \begin{tabular}[t]{m{\ecv@langparwidth}|m{\ecv@langparwidth}|m{\ecv@langparwidth}|m{\ecv@langparwidth}|m{\ecv@langparwidth}}
 \firsthline
-\multicolumn{2}{c|}{\textcolor{torea-bay}{\ecv@understandkey}}&\multicolumn{2}{c|}{\textcolor{torea-bay}{\ecv@speakkey}}&\centering\textcolor{torea-bay}{\ecv@writekey}\tabularnewline\nopagebreak[4]\hline
+\multicolumn{2}{c|}{\textcolor{torea-bay}{\MakeUppercase{\ecv@understandkey}}}&\multicolumn{2}{c|}{\textcolor{torea-bay}{\MakeUppercase{\ecv@speakkey}}}&\centering\textcolor{torea-bay}{\MakeUppercase{\ecv@writekey}}\tabularnewline\nopagebreak[4]\hline
 \centering\small{\textcolor{torea-bay}{\ecv@listenkey}}   & \centering \small{\textcolor{torea-bay}{\ecv@readkey}} &\centering \small{\textcolor{torea-bay}{\ecv@interactkey}} &\centering \small{\textcolor{torea-bay}{\ecv@productkey}} & \tabularnewline\nopagebreak[4]
 %\lasthline
 \hline
