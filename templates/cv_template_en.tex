@@ -3,6 +3,8 @@
 \usepackage[a4paper,top=1.2cm,left=1.2cm,right=1.2cm,bottom=2.5cm]{geometry}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{bibentry}
 
 %[Tutti i campi del CV sono facoltativi. Rimuovere i campi vuoti.]
 \ecvname{Replace with First name(s) Surname(s)}
@@ -83,6 +85,14 @@ References}{Replace with relevant publications, presentations, projects, confere
 \item testimonial of employment or work placement;
 \item publications or research.
 \end{itemize}}
+
+\bibliographystyle{plain}
+\nobibliography{publications} % bib file name
+
+\ecvsection{Publications}
+
+\ecvitem{Pub1}{\bibentry{pub1}}
+\ecvitem{Pub2}{\bibentry{pub2}}
 
 \end{europecv}
 \end{document} 
