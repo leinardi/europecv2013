@@ -3,6 +3,8 @@
 \usepackage[a4paper,top=1.2cm,left=1.2cm,right=1.2cm,bottom=2.5cm]{geometry}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{bibentry}
 
 \ecvname{Betty Smith}
 \ecvaddress{32 Reading rd, Birmingham B26 3QJ United Kingdom}
@@ -71,9 +73,13 @@ E-learning and Psychology\par
 
 \ecvitem[10pt]{Driving licence}{A, B}
 
+
+\bibliographystyle{plain}
+\nobibliography{publications-en}
+
 \ecvsection{ADDITIONAL INFORMATION}
 
-\ecvitem{Publications}{`How to do Observations: Borrowing techniques from the Social Sciences to help Participants do Observations in Simulation Exercises' Coyote EU/CoE Partnership Publication, (2002).}
+\ecvitem{Publications}{\bibentry{pub1}}
 
 \end{europecv}
 \end{document} 

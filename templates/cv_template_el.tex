@@ -3,6 +3,8 @@
 \usepackage[a4paper,top=1.2cm,left=1.2cm,right=1.2cm,bottom=2.5cm]{geometry}
 \usepackage[greek, english]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{bibentry}
 
 \ecvname{Ονοματεπώνυμο}
 \ecvaddress{Διεύθυνση}
@@ -76,6 +78,14 @@ B}
 \item συστατικές επιστολές,
 \item δημοσιεύσεις.
 \end{itemize}}
+
+\bibliographystyle{plain}
+\nobibliography{publications} % bib file name
+
+\ecvsection{Publications}
+
+\ecvitem{Pub1}{\bibentry{pub1}}
+\ecvitem{Pub2}{\bibentry{pub2}}
 
 \end{europecv}
 \end{document} 

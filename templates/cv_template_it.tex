@@ -3,6 +3,8 @@
 \usepackage[a4paper,top=1.2cm,left=1.2cm,right=1.2cm,bottom=2.5cm]{geometry}
 \usepackage[italian]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{bibentry}
 
 %[Tutti i campi del CV sono facoltativi. Rimuovere i campi vuoti.]
 \ecvname{Sostituire con Nome (i) Cognome (i)}
@@ -85,6 +87,14 @@ Referenze}{Sostituire con rilevanti pubblicazioni, presentazioni, progetti, conf
 \item attestazione di servizio;
 \item attestazione del datore di lavoro.
 \end{itemize}}
+
+\bibliographystyle{plain}
+\nobibliography{publications} % bib file name
+
+\ecvsection{Publications}
+
+\ecvitem{Pub1}{\bibentry{pub1}}
+\ecvitem{Pub2}{\bibentry{pub2}}
 
 \end{europecv}
 \end{document} 
