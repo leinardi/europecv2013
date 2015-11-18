@@ -402,10 +402,10 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_mobile}\end{array}
 \par\vspace{5pt}
 \fi
 \ifx\@empty\ecv@emailid\else
-	$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$
-	\ifx\@empty\ecv@emailtext
+	$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_email}\end{array}$%
+	\ifx\@empty\ecv@emailtext%
 		\href{mailto:\ecv@emailid}{\foreignlanguage{english}{\ecv@emailid}}
-	\else
+	\else%
 		\href{mailto:\ecv@emailid}{\ecv@emailtext}
 	\fi
 	\par\vspace{5pt}
