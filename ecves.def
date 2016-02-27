@@ -19,12 +19,12 @@
 % Language table
 \def\ecv@mothertonguekey{\ecv@utf{Lengua(s) materna(s)}}
 \def\ecv@otherlanguageskey{\ecv@utf{Otros idiomas}}
-\def\ecv@levelskey{\ecv@utf{Levels}} % To be translated
+\def\ecv@levelskey{\ecv@utf{Niveles}}
 \def\ecv@understandkey{\ecv@utf{Comprender}}
 \def\ecv@speakkey{\ecv@utf{Hablar}}
 \def\ecv@writekey{\ecv@utf{Escribir}}
 \def\ecv@listenkey{\ecv@utf{Comprensi\'on auditiva}}
-\def\ecv@readkey{\ecv@utf{Comprensi\'on de lectura}}
+\def\ecv@readkey{\ecv@utf{Comprensi\'on lectora}}
 \def\ecv@interactkey{\ecv@utf{Interacci\'on oral}}
 \def\ecv@productkey{\ecv@utf{Expresi\'on oral}}
 \def\ecv@langfooterkey{\ecv@utf{Nivel del Marco Europeo Com\'un de Referencia (MECR)}}
