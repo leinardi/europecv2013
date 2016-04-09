@@ -1,0 +1,39 @@
+%!TEX encoding = UTF-8 Unicode
+%
+% Translation completed 09.04.2016.
+\ProvidesFile{ecvhr.def}[europecv Croatian definitions]
+% Personal information
+\def\ecv@infosectionkey{\ecv@utf{Osobni podaci}}
+\def\ecv@namekey{\ecv@utf{Prezime / Ime}}
+\def\ecv@addresskey{\ecv@utf{Adresa}}
+\def\ecv@telkey{\ecv@utf{Fiksni telefon}}
+\def\ecv@mobilekey{\ecv@utf{Mobilni telefon}}
+\def\ecv@faxkey{\ecv@utf{Fax}}
+\def\ecv@emailkey{\ecv@utf{E-mail}}
+\def\ecv@nationalitykey{\ecv@utf{Nacionalnost}}
+\def\ecv@birthkey{\ecv@utf{Datum ro{\dj{}}enja}}
+\def\ecv@genderkey{\ecv@utf{Spol}}
+% Footer
+\def\ecv@pagekey{\ecv@utf{Stranica}}
+\def\ecv@cvofkey{\ecv@utf{Curriculum vit\ae\ -}}
+% Language table
+\def\ecv@mothertonguekey{\ecv@utf{Materinski jezik}}
+\def\ecv@otherlanguageskey{\ecv@utf{Drugi jezik}}
+\def\ecv@levelskey{\ecv@utf{Europska razina (*)}}
+\def\ecv@understandkey{\ecv@utf{Razumijevanje}}
+\def\ecv@speakkey{\ecv@utf{Govor}}
+\def\ecv@writekey{\ecv@utf{Pisanje}}
+\def\ecv@listenkey{\ecv@utf{Slu{\v{s}}anje}}
+\def\ecv@readkey{\ecv@utf{{\v{C}}itanje}}
+\def\ecv@interactkey{\ecv@utf{Govorna interakcija}}
+\def\ecv@productkey{\ecv@utf{Govorna produkcija}}
+\def\ecv@langfooterkey{\ecv@utf{(*) razina Zajedni{\v{c}}kog referentnog okvira za jezike(CEF)}}
+\def\ecv@cefbasickey{\ecv@utf{Temeljni korisnik}}
+\def\ecv@cefindepkey{\ecv@utf{Samostalni korisnik}}
+\def\ecv@cefprofkey{\ecv@utf{Iskusni korisnik}}
+
+\providecommand*{\ecvtitle}{\ecv@utf{\Large\textbf{E\ecv@kern v\ecv@kern
+r\ecv@kern o\ecv@kern p\ecv@kern s\ecv@kern k\ecv@kern i}\\[5pt]
+\Large\textbf{C\ecv@kern u\ecv@kern r\ecv@kern r\ecv@kern
+i\ecv@kern c\ecv@kern u\ecv@kern l\ecv@kern u\ecv@kern m \ecv@kern
+V\ecv@kern i\ecv@kern t\ecv@kern a\ecv@kern e}}}
