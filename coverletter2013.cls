@@ -113,12 +113,18 @@
 \newcommand*{\ecltelephone}[2][]{\def\ecl@mobile{#2}\def\ecl@telephone{#1}}
 \newcommand*{\eclemail}[1]{\def\ecl@email{#1}}
 \newcommand*{\ecllinkedin}[1]{\def\ecl@linkedin{#1}}
+\newcommand*{\eclcompany}[1]{\def\ecl@company{#1}} 
 
 \eclname{}
 \ecladdress{}
 \ecltelephone{}
 \eclemail{}
 \ecllinkedin{}
+\eclcompany{}
+
+\providecommand{\eclcompanyname}[1][0pt]{%
+\ecl@company
+}
 
 \providecommand{\eclpersonalinfo}[1][0pt]{%
 \pagenumbering{gobble}% Remove page numbers (and reset to 1)
@@ -185,8 +191,12 @@
 
 
 \newcommand\eclsignature[2][0pt]{%
-\includegraphics{#2}\par\bigskip
-\ecl@name\vspace{#1}\par}
+\ifx&#2&%
+	\ecl@name\vspace{#1}\par
+\else
+	\includegraphics{#2}\par
+\fi
+}
 
 \newcommand\eclitem[2][0pt]{%
 #2\vspace{#1}\par}
