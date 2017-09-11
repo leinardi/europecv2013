@@ -360,6 +360,7 @@
 \newcommand*{\ecvemail}[2][]{\def\ecv@emailid{#2}\def\ecv@emailtext{#1}}
 \newcommand*{\ecvlinkedin}[1]{\def\ecv@linkedin{#1}}
 \newcommand*{\ecvgithub}[1]{\def\ecv@github{#1}}
+\newcommand*{\ecvstackoverflow}[1]{\def\ecv@stackoverflow{#1}}
 \newcommand*{\ecvhomepage}[1]{\def\ecv@homepage{#1}}
 \newcommand*{\ecvnationality}[1]{\def\ecv@nationality{#1}}
 \newcommand*{\ecvdateofbirth}[1]{\def\ecv@birth{#1}}
@@ -389,6 +390,7 @@
 \ecvemail{}
 \ecvlinkedin{}
 \ecvgithub{}
+\ecvstackoverflow{}
 \ecvhomepage{}
 \ecvgender{}
 \ecvdateofbirth{}
@@ -425,7 +427,10 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_url}\end{array}$\e
 $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_linkedin}\end{array}$\ecv@linkedin\par\vspace{5pt}
 \fi
 \ifx\@empty\ecv@github\else
-$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_github}\end{array}$\ecv@github\par\vspace{10pt}
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_github}\end{array}$\ecv@github\par\vspace{5pt}
+\fi
+\ifx\@empty\ecv@stackoverflow\else
+$\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_stackoverflow}\end{array}$\ecv@stackoverflow\par\vspace{10pt}
 \fi
 \ifx\@empty\ecv@gender
 	\ifx\@empty\ecv@birth
